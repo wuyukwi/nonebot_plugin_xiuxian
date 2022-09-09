@@ -29,8 +29,8 @@ class XiuConfig:
                       "渡劫境初期",
                       "渡劫境中期",
                       "渡劫境圆满"]    # 最高境界设定
-        self.level_up_cd = 60   # 境界突破CD 单位分钟
-        self.closing_exp = 10    # 闭关每分钟增加的修为
+        self.level_up_cd = 1   # 境界突破CD 单位分钟
+        self.closing_exp = 1000    # 闭关每分钟增加的修为
         self.closing_exp_upper_limit = 1.5   # 闭关可获取修为上限（下一个境界需要的修为的1.5倍）
         self.level_punishment_floor = 1  # 突破失败扣除修为，惩罚下限(当前实例：1%)
         self.level_punishment_limit = 5  # 突破失败扣除修为，惩罚下限(当前实例：10%)
